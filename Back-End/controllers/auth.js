@@ -4,6 +4,7 @@ const jwt = require("jsonwebtoken");
 const config = require("../config/auth.config.js");
 
 exports.postsignup = (req, res, next) => {
+  console.log("inside signup")
   const Email = req.body.email;
   const Password = req.body.password;
 
@@ -11,7 +12,7 @@ exports.postsignup = (req, res, next) => {
     email: Email,
     password: bcrypt.hashSync(Password, 8),
     Taxdetails:{},
-    TaxableIncome:null
+    TaxableIncome:0
   });
 
   User.findOne({email:Email})
@@ -23,9 +24,11 @@ exports.postsignup = (req, res, next) => {
     }
     user.save((err, user) => {
       if (err) {
-        res.status(500).send({ message: err });
+        console.log("sending error");
+        res.status(200).send({ message: err });
         return;
       }
+      console.log("sending success")
       res.status(200).send({ message: "User signed up" });
   })
   });
