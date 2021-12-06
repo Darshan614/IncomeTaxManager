@@ -11,15 +11,15 @@ const userSchema = new Schema({
 		required:true
 	},
 	Taxdetails:{
-        BasicSalary:{type:Number,required:true},
-        LTA:{type:Number,required:true},
-        HRA:{type:Number,required:true},
-        FA:{type:Number,required:true},
-        Investment:{type:Number,required:true},
-        Rent:{type:Number,required:true},
-        CityType:{type:String,required:true},
-        MediclaimPremium:{type:Number,required:true},
-        ApplicableHRA:{type:Number,required:true}
+        BasicSalary:{type:Number},
+        LTA:{type:Number},
+        HRA:{type:Number},
+        FA:{type:Number},
+        Investment:{type:Number},
+        Rent:{type:Number},
+        CityType:{type:String},
+        MediclaimPremium:{type:Number},
+        ApplicableHRA:{type:Number}
     },
     TaxableIncome:{
         type:Number,

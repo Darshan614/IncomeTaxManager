@@ -52,6 +52,7 @@ function Auth() {
         }
       })
       .then(data => {
+        console.log('data signup ',data);
         if (data.message === "User signed up") {
           navigate("/");
         }
