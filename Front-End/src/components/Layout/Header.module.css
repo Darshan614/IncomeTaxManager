@@ -1,0 +1,41 @@
+.navbar{
+    background-color: rgb(3, 5, 2);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+.title{
+    text-decoration: none;
+    font-size: 35px;
+    color: rgb(133, 7, 165)
+}
+
+.log {
+    border-radius: 5px;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.log:hover{
+    cursor: pointer;
+    border: 2px solid rgb(133, 7, 165);
+}
+
+@media screen and (max-width: 1000px) {
+    .item{
+        width: 0;
+    }
+  }
+
+@media screen and (max-width: 700px) {
+    .item{
+        width: 0;
+    }
+   }

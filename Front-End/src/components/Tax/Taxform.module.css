@@ -1,0 +1,52 @@
+.form{
+    background-color: rgba(1, 7, 95, 0.808);
+    padding: 5%;
+    width: 50%;
+    justify-content: center;
+    margin: auto;
+    margin-top: 4%;
+    color: white;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.entry{
+    margin-top: 3%;
+}
+
+.group{
+    justify-content: center;
+}
+
+.entrybutt{
+    margin-top: 8%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1000px) {
+    .form{
+        background-color: rgba(1, 7, 95, 0.808);
+        padding: 5%;
+        width: 75%;
+        justify-content: center;
+        margin: auto;
+        margin-top: 4%;
+        color: white;
+        border-radius: 5px;
+        font-weight: bolder;
+    }
+    .entry{
+        margin-top: 5%;
+    }
+  }
+
+.check{
+    margin-top: 1%;
+    font-weight: lighter;
+}
+
+.error{
+    color: red;
+}

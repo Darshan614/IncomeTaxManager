@@ -1,0 +1,27 @@
+.datapage{
+    color: white;
+    margin: auto;
+    width: 40%;
+    background-color: rgb(2, 57, 139);
+    padding: 5%;
+}
+
+.entry{
+    text-align: left;
+    padding: 5%;
+    color: white;
+    justify-content: space-around;
+    font-size: 120%;
+}
+
+@media screen and (max-width: 1000px) {
+    .datapage{
+        margin-top: 1%;
+        width: 100%;
+    }
+    .entry{
+        font-size: 110%;
+        padding: 4%;
+    }
+  }
+

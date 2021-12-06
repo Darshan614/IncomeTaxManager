@@ -1,0 +1,57 @@
+.head{
+    margin-top: 3%;
+    padding: 4%;
+    background-color: rgb(7, 146, 211);
+    color: white;
+}
+
+.head2{
+    margin-top: 3%;
+    padding: 4%;
+    background-color: rgb(10, 96, 136);
+    color: white;
+}
+
+@keyframes fading {
+    from{color: rgb(4, 63, 90);}
+    to{color: white;}
+}
+
+.step1{
+    animation-name: fading;
+    animation-duration: 3s;
+}
+
+.step2{
+    animation-name: fading;
+    animation-duration: 6s;
+}
+
+.step3{
+    animation-name: fading;
+    animation-duration: 12s;
+}
+
+.head3{
+    margin-top: 3%;
+    padding: 4%;
+    background-color: rgb(4, 63, 90);
+    color: white;
+}
+
+.butt{
+    font-size: 150%;
+    color: white;
+    margin-top: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 4%;
+    padding-left: 4%;
+    background-color: rgb(133, 7, 165);
+    border-radius: 5px;
+}
+
+.butt:hover{
+    background-color: rgb(4, 63, 90);
+}
+

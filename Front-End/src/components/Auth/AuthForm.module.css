@@ -1,0 +1,55 @@
+.form {
+  margin-top: 3%;
+  background-color: rgb(1, 1, 95);
+  color: white;
+  border-radius: 5px;
+  padding: 5%;
+}
+
+.entry {
+  margin-top: 3%;
+}
+
+.butt{
+    margin-top: 5%;
+}
+
+.label{
+  margin-right: 5%; 
+}
+
+.input{
+  width: 75%;
+  margin-left: auto;
+}
+
+.change{
+  margin-top: 5%;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .form {
+    margin-top: 5%;
+    background-color: rgb(4, 4, 124);
+    color: white;
+    padding-bottom: 5%;
+  }
+  .change{
+      margin-top: 15%;
+  }
+  .entry {
+    display: grid;
+  }
+  .input{
+      
+      margin: auto;
+  }
+  .label{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  
+}
